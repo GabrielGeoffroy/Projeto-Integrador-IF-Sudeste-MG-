@@ -23,7 +23,7 @@ button { color: inherit; }
 .topo { position: sticky; top: 0; z-index: 10; border-bottom: 1px solid var(--linha); background: #0b0b0cef; backdrop-filter: blur(14px); }
 .topo-conteudo { width: min(1160px, calc(100% - 48px)); height: 72px; margin: auto; display: flex; align-items: center; justify-content: space-between; }
 .marca { display: inline-flex; align-items: center; gap: 11px; color: var(--texto); text-decoration: none; font-weight: 700; }
-.marca-icone { display: grid; width: 36px; height: 36px; place-items: center; border-radius: 11px; background: var(--dourado); color: #13110c; font-size: 11px; font-weight: 800; letter-spacing: -.5px; }
+.marca-icone { display: grid; width: 36px; height: 36px; place-items: center; border: 1px solid #67512a; border-radius: 11px; background: #302719; color: var(--dourado-claro); }\n.marca-icone svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
 .menu-nav { display: flex; align-items: center; gap: 29px; }
 .menu-nav a { color: var(--suave); text-decoration: none; font-size: 13px; transition: color .2s; }
 .menu-nav a:hover, .menu-nav a:focus-visible { color: var(--dourado-claro); }
@@ -148,5 +148,6 @@ h2 { margin: 0; font-size: clamp(24px, 3.5vw, 32px); letter-spacing: -1.2px; }
   .hero-acoes { align-items: stretch; flex-direction: column; }
   .botao-principal, .botao-secundario { width: 100%; }
 }
+
 
 
